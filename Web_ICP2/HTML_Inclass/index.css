@@ -1,0 +1,14 @@
+#img1 {
+    float:left
+
+}
+span {
+    color:red;
+}
+/*obtained at https://www.pexels.com/photo/defocused-image-of-lights-255379/*/
+body {
+    text-align: center;
+    list-style-position: inside;
+    background-image: url("images/img1.jpeg");
+    background-color: #cccccc;
+}

@@ -1,0 +1,40 @@
+.grid-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.grid-container > span {
+    margin: 1px;
+    padding: 1px;
+    width: 70px;
+    height: 70px;
+}
+
+#square1 {
+    background-color: #4285f4;
+}
+#square2 {
+    background-color: #f44251;
+}
+#square3 {
+    background-color: #95f442;
+}
+#square4 {
+    background-color: #121213;
+}
+#square5 {
+    background-color: #b642f4;
+}
+#square6 {
+    background-color: #f4b942;
+}
+#square7 {
+    background-color: #d74912;
+}
+#square8 {
+    background-color: #926200;
+}
+#square9 {
+    background-color: #005e0a;
+}
