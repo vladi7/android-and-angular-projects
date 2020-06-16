@@ -21,8 +21,8 @@ row_center {
 }
 
 #message span, .score1 span, .score2 span, .computerPick span {
-    color: cyan;
-    background-color: coral;
+    color: white;
+    background-color: blue;
 }
 
 #game {
