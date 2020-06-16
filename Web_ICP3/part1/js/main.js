@@ -10,32 +10,27 @@ $(document).ready(function () {
         $("#computerPick").text(computerTurn);
         $(".computerPick").fadeIn();
         if (computerTurn === humanTurn) {
-            //$("#draw_message").fadeIn();
             $("#draw_message").clone().appendTo("#history_container").fadeIn();
             return;
         }
         if (computerTurn === "rock" && humanTurn === "paper") {
-            //$("#win_message").fadeIn();
             $("#win_message").clone().appendTo("#history_container").fadeIn();
             scoreHuman += 1;
             $("#scoreHuman").text(scoreHuman);
             return;
         }
         if (computerTurn === "scissors" && humanTurn === "rock") {
-            //$("#win_message").fadeIn();
             $("#win_message").clone().appendTo("#history_container").fadeIn();
             scoreHuman += 1;
             $("#scoreHuman").text(scoreHuman);
             return;
         }
         if (computerTurn === "paper" && humanTurn === "scissors") {
-            //$("#win_message").fadeIn();
             $("#win_message").clone().appendTo("#history_container").fadeIn();
             scoreHuman += 1;
             $("#scoreHuman").text(scoreHuman);
             return;
         } else {
-            //$("#loss_message").fadeIn();
             $("#loss_message").clone().appendTo("#history_container").fadeIn();
             scoreComputer += 1;
             $("#scoreComputer").text(scoreComputer);
