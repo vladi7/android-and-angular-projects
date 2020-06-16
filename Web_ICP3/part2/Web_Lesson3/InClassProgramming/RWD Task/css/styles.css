@@ -35,6 +35,8 @@
 h2 {
     color: #bbbbbb;
 }
+
+/*Makes the page responsive to different widths of the device*/
 @media (min-width: 50em) {
 
     .text_top {
