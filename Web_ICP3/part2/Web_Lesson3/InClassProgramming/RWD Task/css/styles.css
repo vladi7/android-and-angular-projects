@@ -1,0 +1,55 @@
+
+* {
+    font-family: "Lato";
+}
+
+
+.header {
+    border-bottom: 3px solid #656656;
+    margin-top: 5px;
+}
+.lab_div{
+    margin-top: 30px;
+}
+#lab{
+    width: 1140px;
+    height: 350px;
+
+}
+.logo_myself{
+    margin-top: 30px;
+}
+.text_top {
+    color: #656656;
+}
+
+.text_top h1 {
+    font-size: 4em;
+}
+.app_images{
+    width: 555px;
+    height: 300px;
+    margin-right: 30px;
+
+}
+h2 {
+    color: #bbbbbb;
+}
+@media (min-width: 50em) {
+
+    .text_top {
+        text-align: right;
+    }
+
+    .logo_myself {
+        text-align: left;
+    }
+
+}
+
+@media (max-width: 50em) {
+
+    .text_top, .logo_myself {
+        text-align: center;
+    }
+}

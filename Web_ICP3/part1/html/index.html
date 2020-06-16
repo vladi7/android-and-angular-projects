@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Rock Paper Scissors</title>
+    <link rel="icon" href=
+            "../imgs/scissors.PNG"
+          type="image/x-icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--https://www.w3schools.com/bootstrap/tryit.asp?filename=trybs_default&stacked=h-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="../css/styles.css">
+    <script src="../js/main.js"></script>
+</head>
+<!--Description of the game -->
+<div class="jumbotron text-center">
+    <h1>Rock Paper Scissors Game</h1>
+    <p>Using Bootstrap and jQuery</p>
+</div>
+<!--Hidden win messages -->
+<div id="win_message" class="alert alert-success alert-dismissible fade in">
+    <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+    <strong>You WON the round, CONGRATS!</strong>
+</div>
+<div id="win_match_message" class="alert alert-success alert-dismissible fade in">
+    <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+    <strong>You WON the match! Computer is sad :(</strong>
+</div>
+
+<div id="draw_message" class="alert alert-warning alert-dismissible fade in">
+    <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+    <strong>Draw in this round, try again!</strong>
+</div>
+
+<div id="loss_message" class="alert alert-danger alert-dismissible fade in">
+    <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+    <strong>You lost the round :(</strong>
+</div>
+<div id="loss_match_message" class="alert alert-danger alert-dismissible fade in">
+    <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+    <strong>You lost the match, good luck next time!</strong>
+</div>
+
+<!--The container used to store the clone of the alerts as a log/history of the match. It is cleared when pressing start the game with jQuery -->
+<div id="history_container">
+
+</div>
+<!--The following containers are used to describe all the buttons -->
+<!--https://www.google.com/search?q=rock+paper+scissors+ui+images&rlz=1C1CHBF_enUS853US853&source=lnms&tbm=isch&sa=X&ved=2ahUKEwiUntO8tITqAhWhQjABHQ7iCFwQ_AUoAXoECAwQAw&biw=1920&bih=958#imgrc=z4TE1ELEXBIUhM -->
+<div id="game" class="container-fluid text-center">
+    <div id="choice" class="row justify-content-center">
+        <h2 id="message"><span>Please choose Rock, Paper or Scissors. Current Score:</span></h2>
+        <h3 class="score1"><span>Your Score: <span class="score1" id="scoreHuman"></span></span></h3>
+        <p></p>
+        <h3 class="score2"><span>Computer Score: <span class="score2" id="scoreComputer"></span></span></h3>
+        <h3 class="computerPick"><span>Computer Choose: <span id="computerPick"></span></span></h3>
+
+        <div class="col-sm-2 col-md-offset-3 ">
+            <button class="choice" id="rock" disabled><img src="../imgs/rock.PNG" height="135" width="112"/></button>
+        </div>
+        <div class="col-sm-2 col-md-auto ">
+            <button class="choice" id="paper" disabled><img src="../imgs/paper.PNG" height="135" width="112"/></button>
+        </div>
+        <div class="col-sm-2 col-md-auto ">
+            <button class="choice" id="scissors" disabled><img src="../imgs/scissors.PNG" height="135" width="112"/>
+            </button>
+        </div>
+    </div>
+    <p></p>
+    <div class="container-fluid text-center">
+        <button id="start" class="btn btn-primary btn-lg">Start New Game!</button>
+    </div>
+</div>
+
+<p></p>
+
+<!--This container contains instructions on how to play retrieved from Wikipedia. Also, includes a message and a button with a link to the Wikipedia page-->
+<div id="rules-well" class="well well-sm bg-info">
+    <h2>RULES:</h2>
+    <h3>A player who decides to play rock will beat another player who has chosen scissors ("rock crushes scissors" or
+        sometimes "blunts scissors"[1]), but will lose to one who has played paper ("paper covers rock"); a play of
+        paper will lose to a play of scissors ("scissors cuts paper"). If both players choose the same shape, the game
+        is tied and is usually immediately replayed to break the tie. The type of game originated in China and spread
+        with increased contact with East Asia, while developing different variants in signs over time. Other names for
+        the game in the English-speaking world include roshambo and other orderings of the three items, with "rock"
+        sometimes being called "stone".</h3>
+    <!--https://www.google.com/search?q=rock+paper+scissors+paper+images&rlz=1C1CHBF_enUS853US853&hl=en&source=lnms&tbm=isch&sa=X&ved=2ahUKEwjAmev9poTqAhUMTDABHfs6CvQ4ChD8BSgBegQIDBAD&biw=958&bih=999#imgrc=o5NTx5Uyr0bLIM -->
+    <img id="rules" src="../imgs/RPSrules.jpg" class="img-rounded"/>
+    <p></p>
+    <p class="lead">
+        <a class="btn btn-primary btn-lg" href="https://en.wikipedia.org/wiki/Rock_paper_scissors" target="_blank"
+           role="button">Learn more about the game</a>
+    </p>
+</div>
+</body>
+
+<!--Description of the author of the game -->
+<footer>
+    <div id="left">
+        <p>Game made by Vlad Dubrovenski</p>
+        <p>For Web and Mobile Programming class</p>
+    </div>
+</footer>
+</html>

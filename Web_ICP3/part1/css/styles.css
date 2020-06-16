@@ -1,0 +1,32 @@
+#rules {
+    width: 300px;
+    height: 150px;
+}
+
+.well, .jumbotron {
+    background-color: cyan;
+}
+
+row_center {
+    display: flex;
+    align-items: center;
+}
+
+.select_element {
+    transform: scale(1.12);
+}
+
+#message, .score1, .score2, .alert, .computerPick {
+    display: none;
+}
+
+#message span, .score1 span, .score2 span, .computerPick span {
+    color: cyan;
+    background-color: coral;
+}
+
+#game {
+    background-image: url("../imgs/background.jpg");
+    background-color: #cccccc;
+    background-repeat: repeat;
+}
