@@ -1,0 +1,57 @@
+<html>
+<head>
+    <title>Github User Finder</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+<header>
+    <h1>Find Me!</h1>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+</header>
+<div id="container1" class="container-fluid text-center">
+    <div class="search">
+        <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+        <input id="username" placeholder="enter a github username..." type="text"></input>
+    </div>
+    <div class="row ">
+        <div class="col col-md-auto ">
+            <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+            <button class="btn btn-primary btn-lg" id="button">Check the User Name</button>
+        </div>
+    </div>
+</div>
+<p></p>
+<div id="container2" class="container text-center">
+    <div class="row" id="profile">
+        <div class="col col-md-auto avatar"><img id="avat" src=""/></div>
+        <div class="col col-md-auto ">GitHub ID: <span id="user"></span></div>
+        <div class="col col-md-auto ">Joined Date: <span id="joinedDate"></span></div>
+        <div class="col col-md-auto ">Number of Followers <span id="followers"></span></div>
+        <div class="col col-md-auto ">Number of Users Followed: <span id="following"></span></div>
+        <div class="col col-md-auto ">Link to GitHub:  <a id="link" class="btn btn-success btn-lg" href="https://en.wikipedia.org/wiki/Rock_paper_scissors" target="_blank" role="button">Click here to visit</a></div>
+    </div>
+</div>
+<!--Hidden win messages -->
+
+<div id="success_message" class="alert alert-success alert-dismissible fade in">
+    <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+    <strong id="success"></strong>
+</div>
+<div id="error_message" class="alert alert-danger alert-dismissible fade in">
+    <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+    <strong id="error"></strong>
+</div>
+
+<p></p>
+
+<!--The container used to store the clone of the alerts as a log/history of the match. It is cleared when pressing start the game with jQuery -->
+<div id="history_container">
+
+</div>
+
+<script src="script.js" type="text/javascript"></script>
+
+</body>
+</html>

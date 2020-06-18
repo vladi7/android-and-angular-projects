@@ -19,11 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="365ccefb-4367-4796-b33a-a1584148c50b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/part1/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/part1/css/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/part2/Web_Lesson3/InClassProgramming/RWD Task/input/input.html" beforeDir="false" afterPath="$PROJECT_DIR$/part2/Web_Lesson3/InClassProgramming/RWD Task/input/input.html" afterDir="false" />
-    </list>
+    <list default="true" id="365ccefb-4367-4796-b33a-a1584148c50b" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -52,7 +48,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/part2/Web_Lesson3/InClassProgramming/RWD Task/imgs" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Web_ICP4" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -79,7 +75,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1592239509427</updated>
-      <workItem from="1592239512354" duration="39935000" />
+      <workItem from="1592239512354" duration="40640000" />
     </task>
     <servers />
   </component>
@@ -98,10 +94,10 @@
     </option>
   </component>
   <component name="WindowStateProjectService">
-    <state x="1220" y="295" key="FileChooserDialogImpl" timestamp="1592249832011">
+    <state x="1220" y="295" key="FileChooserDialogImpl" timestamp="1592405572516">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="1220" y="295" key="FileChooserDialogImpl/0.0.1920.1080/-1920.130.1536.864@0.0.1920.1080" timestamp="1592249832011" />
+    <state x="1220" y="295" key="FileChooserDialogImpl/0.0.1920.1080/-1920.130.1536.864@0.0.1920.1080" timestamp="1592405572516" />
     <state x="-7" y="0" width="974" height="1087" key="dock-window-1" timestamp="1592261341689">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
