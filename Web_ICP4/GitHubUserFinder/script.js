@@ -1,16 +1,16 @@
 //this method is left for reference on how to do the task with synchronous call
-function getGithubInfo(user) {
-    //1. Create an instance of XMLHttpRequest class and send a GET request using it.
-    // The function should finally return the object(it now contains the response!)
-//var object = $.get("https://api.github.com/users/" +user);
-//console.log(object);
-    var xhttp = new XMLHttpRequest();
-    xhttp.open('GET', "https://api.github.com/users/" + user, false);
-    xhttp.send();
-    var json = xhttp.responseText;
-    console.log(xhttp);
-    return xhttp;
-}
+    function getGithubInfo(user) {
+        //1. Create an instance of XMLHttpRequest class and send a GET request using it.
+        // The function should finally return the object(it now contains the response!)
+    //var object = $.get("https://api.github.com/users/" +user);
+    //console.log(object);
+        var xhttp = new XMLHttpRequest();
+        xhttp.open('GET', "https://api.github.com/users/" + user, false);
+        xhttp.send();
+        var json = xhttp.responseText;
+        console.log(xhttp);
+        return xhttp;
+    }
 //this method is used to populate all the contents when the user was found
 function showUser(user) {
     //2. set the contents of the h2 and the two div elements in the div '#profile' with the user content
@@ -31,17 +31,18 @@ function showUser(user) {
 //the method is used to show the message when the user was not found
 function noSuchUser(username) {
     //3. set the elements such that a suitable message is displayed
-    $("#user").text("GitHub does not have the user with the following name: " + username);
-
+    $("#error").text("time: " + getCurrentTime() + " Username searched: " + username+" NOT FOUND!");
+    $("#error_message").clone().appendTo("#history_container").fadeIn();
+    $('#history_container div a').fadeIn();
 }
 //the method is used to get the current time for the log
-function getCurrentTime() {
-    var today = new Date();
-    var cHour = today.getHours();
-    var cMin = today.getMinutes();
-    var cSec = today.getSeconds();
-    return cHour+ ":" + cMin+ ":" +cSec;
-}
+    function getCurrentTime() {
+        var today = new Date();
+        var cHour = today.getHours();
+        var cMin = today.getMinutes();
+        var cSec = today.getSeconds();
+        return cHour+ ":" + cMin+ ":" +cSec;
+    }
 //the method is used to clear the output
 function clearOutput(){
     $("#container2").css("display", "none");
@@ -68,9 +69,6 @@ $(document).ready(function () {
             },
             error: function () {
                 noSuchUser($('#username').val());
-                $("#error").text("time: " + getCurrentTime() + " Username searched: " + $('#username').val()+" NOT FOUND!");
-                $("#error_message").clone().appendTo("#history_container").fadeIn();
-                $('#history_container div a').fadeIn();
                 clearOutput();
             }
         });
@@ -100,9 +98,6 @@ $(document).ready(function () {
                 },
                 error: function () {
                     noSuchUser($('#username').val());
-                    $("#error").text("time: " + getCurrentTime() + " Username searched: " + username+" NOT FOUND!");
-                    $("#error_message").clone().appendTo("#history_container").fadeIn();
-                    $('#history_container div a').fadeIn();
                     clearOutput();
                 }
             });
