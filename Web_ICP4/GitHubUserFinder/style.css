@@ -1,18 +1,26 @@
 body {
   font-family: Helvetica, Arial, sans-serif;
-  border-top: 5px solid #4c4066;
   margin: 0px auto;
   font-size: 14px;
   color: #666666;
   font-size: 16px;
+  background-color: lightgray;
 }
-
+#errorDisplay{
+  display: none;
+  font-size: 40px;
+  color:red;
+  font-weight: bold;
+}
 header {
   text-align: center;
-  background-color: #fdfdfd;
   border-bottom: 1px solid #e5e2e0;
+  background-color: aqua;
 }
-
+h1{
+  background-color: aqua;
+  margin-top: 0;
+}
 #logo {
   position: relative;
   top: -2px;
@@ -70,4 +78,11 @@ h2 {
 }
 .alert, .close{
   display: none;
+}
+.variable{
+  font-weight: bold;
+  font-size: 18px;
+}
+.value{
+  font-weight: normal;
 }

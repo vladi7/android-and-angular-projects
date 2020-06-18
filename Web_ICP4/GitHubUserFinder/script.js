@@ -14,6 +14,7 @@
 //this method is used to populate all the contents when the user was found
 function showUser(user) {
     //2. set the contents of the h2 and the two div elements in the div '#profile' with the user content
+    $('#errorDisplay').hide();
     $("#container2").css("display", "block");
     $("#user").text(user.id);
 
@@ -21,6 +22,13 @@ function showUser(user) {
     $("#joinedDate").text(user.created_at);
     $("#followers").text(user.followers);
     $("#following").text(user.following);
+    if(user.name===null){
+        $("#name").text("Not Available");
+    }
+    else{
+        $("#name").text(user.name);
+    }
+    $("#publicRepos").text(user.public_repos);
     $("#link").attr("href", user.html_url);
     $("#button").removeClass("btn-primary");
     $("#button").addClass("btn-danger");
@@ -34,6 +42,7 @@ function noSuchUser(username) {
     $("#error").text("time: " + getCurrentTime() + " Username searched: " + username+" NOT FOUND!");
     $("#error_message").clone().appendTo("#history_container").fadeIn();
     $('#history_container div a').fadeIn();
+    $('#errorDisplay').fadeIn();
 }
 //the method is used to get the current time for the log
     function getCurrentTime() {

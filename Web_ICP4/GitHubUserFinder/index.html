@@ -1,14 +1,15 @@
 <html>
 <head>
     <title>Github User Finder</title>
-    <link href="style.css" rel="stylesheet">
 </head>
 <body>
 <header>
-    <h1>Find Me!</h1>
+    <h1>Github User Finder!</h1>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link href="style.css" rel="stylesheet">
+
 </header>
 <!--container with a search field and the button-->
 <div id="container1" class="container-fluid text-center">
@@ -28,14 +29,23 @@
 <div id="container2" class="container text-center">
     <div class="row" id="profile">
         <div class="col col-md-auto avatar"><img id="avat" src=""/></div>
-        <div class="col col-md-auto ">GitHub ID: <span id="user"></span></div>
-        <div class="col col-md-auto ">Joined Date: <span id="joinedDate"></span></div>
-        <div class="col col-md-auto ">Number of Followers <span id="followers"></span></div>
-        <div class="col col-md-auto ">Number of Users Followed: <span id="following"></span></div>
-        <div class="col col-md-auto ">Link to GitHub:  <a id="link" class="btn btn-success btn-lg" href="https://en.wikipedia.org/wiki/Rock_paper_scissors" target="_blank" role="button">Click here to visit</a></div>
+        <div class="col col-md-auto variable">Name: <span class="value" id="name"></span></div>
+        <div class="col col-md-auto variable">GitHub ID: <span class="value" id="user"></span></div>
+        <div class="col col-md-auto variable">Joined Date: <span class="value" id="joinedDate"></span></div>
+        <div class="col col-md-auto variable">Number of Followers: <span class="value" id="followers"></span></div>
+        <div class="col col-md-auto variable">Number of Users Followed: <span class="value" id="following"></span></div>
+        <div class="col col-md-auto variable">Number of Public Repositories: <span class="value" id="publicRepos"></span></div>
+
+        <div class="col col-md-auto variable">Link to GitHub:  <a id="link" class="btn btn-success btn-xs" href="https://en.wikipedia.org/wiki/Rock_paper_scissors" target="_blank" role="button">Click here to visit</a></div>
     </div>
 </div>
+<div id="containerError" class="container text-center">
+    <div class="row" id="ErrorRow">
+        <div class="col col-md-auto" id="errorDisplay">The User Was Not Found!</span></div>
 
+
+    </div>
+</div>
 <!--Hidden log messages, note that after copying them to history container they can be dismissed -->
 <div id="success_message" class="alert alert-success alert-dismissible fade in">
     <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
