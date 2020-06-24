@@ -1,0 +1,132 @@
+.items{
+  position: absolute; bottom: 0;right: 0;
+  margin-right: 50px;
+  margin-bottom: 50px;
+  background-color: #1c1c1d;
+  font-size:15px;
+  color:white;
+}
+.new-item{
+  width: 223px;
+  height:40px;
+}
+h1 {
+  text-align: center;
+  color:white;
+}
+.headerForTasks{
+  font-size:30px;
+}
+input.new-item, textarea {
+
+  background-color : #1c1c1d;
+
+}
+.datepickerDiv{
+  margin-right: 55px;
+  margin-top: 10px;
+
+}
+.myLabel{
+  display: inline-block;
+  height: 34px;
+  padding: 6px 12px;
+  font-size: 14px;
+  line-height: 1.42857143;
+  border-radius: 4px;
+}
+input.countDownDiv, textarea{
+  background-color : #1c1c1d;
+  width: 283px;
+  height:139px;
+  font-size: 25px;
+  resize:both;
+}
+
+.form-control{
+  background-color : #f0f0f5;
+  width: 223px;
+  margin-right: 0px;
+}
+.btn-secondary{
+  background-color : #1c1c1d;
+  color:white;
+}
+.list-group, .list-group-item{
+  background-color : #1c1c1d;
+}
+
+.dateDiv{
+  color: white;
+  font-size: 40px;
+  background-color: transparent;
+  border-color: transparent;
+}
+.timeDiv{
+  margin-top: 110px;
+  color:white;
+  font-size: 100px;
+  background-color: transparent;
+  border-color: transparent;
+
+}
+.countDownDiv{
+  width: 223px;
+  color: white;
+
+}
+.countDownButton{
+  margin-top: 10px;
+}
+.completed{
+  text-decoration: line-through;
+  opacity:0.6;
+}
+.input-group{
+  margin-left: 430px;
+  margin-rihgt:0;
+  display:block;
+  width: 50%;
+  position:static;
+}
+.col-centered{
+  float: none;
+  margin: 0 auto;
+}
+.datepicker {
+  margin: 5px 0;
+}
+.result{
+  color: red;
+}
+.resultRow{
+  margin-top: 10px;
+  color: white;
+  font-size: 25px;
+}
+@media only screen and (max-width: 600px) {
+  .input-group { margin-left: 96px;}
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .input-group {  margin-left: 210px;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .input-group { margin-left: 220px;}
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .input-group { margin-left: 330px;}
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .input-group { margin-left: 430px;}
+}
+
+

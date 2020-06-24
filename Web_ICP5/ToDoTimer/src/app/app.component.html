@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<header>
+  <meta charset="UTF-8">
+  <h1>Task List and Count Down Timer!</h1>
+  <!--  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>-->
+  <!--  <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.15.1/moment.min.js"></script>-->
+  <!--  <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>-->
+  <!--  <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datetimepicker/4.7.14/js/bootstrap-datetimepicker.min.js"></script>-->
+  <!--  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">-->
+  <!--  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datetimepicker/4.7.14/css/bootstrap-datetimepicker.min.css">-->
+  <link rel="stylesheet" href="app.component.css">
+</header>
+<body>
+<div class="container-fluid text-center ">
+  <div class="row">
+    <div class="col-md-auto">
+      <textarea class="countDownDiv" placeholder="What is you main task?" autofocus=""
+                [(ngModel)]="countDown"></textarea>
+    </div>
+  </div>
+  <div class="row input-group">
+    <div class="col-md-4 offset-md-4">
+      <input class="form-control"
+             a2e-datetimepicker
+             [(ngModel)]="dateTo"
+             [options]="a2eOptions"
+             (onClick)="addTimer()"
+      />
+    </div>
+  </div>
+
+<!--  <div class="row">-->
+<!--    <div class="col-md-auto countDownButton">-->
+<!--      <button type="button" class="btn btn-secondary btn" (click)="addTimer()">Start CountDown</button>-->
+<!--    </div>-->
+<!--  </div>-->
+  <div class="row resultRow">
+    <div [hidden]="!hideText" class="col-md-2 col-md-offset-2">
+       Time Left:
+    </div>
+    <div class="col-lg-1  border border-danger result">
+      <span>{{days}}</span>
+    </div>
+    <div class="col-lg-1 border border-danger result">
+      <span>{{hours}}</span>
+    </div>
+    <div class="col-lg-1 border border-danger result">
+      <span> {{minutes}}</span>
+    </div>
+    <div class="col-lg-1 border border-danger result">
+      <span>{{seconds}}</span>
+    </div>
+  </div>
+</div>
+
+<div class="container-fluid text-center dateTime">
+
+  <div class="row">
+    <div class="col-12">
+      <div class="center-block timeDiv">
+        <h1>Current Time:</h1>
+        <span class="textTimeDate">{{ time | date: 'hh:mm:ss a' }}</span>
+      </div>
+      <div class="center-block dateDiv">
+        <h1>Current Date:</h1>
+        <span class="textTimeDate">{{ time | date: 'dd/MM/yyyy' }}</span>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="container-fluid text-center items">
+  <div class="row">
+    <div class="headerForTasks col col-md-auto">
+      <span>Today's Tasks</span>
+    </div>
+    <div class="col col-md-auto">
+      <input class="new-item" placeholder="What do you want to do today?" autofocus="" [(ngModel)]="newItem.text"
+             (keyup.enter)="addItems()">
+    </div>
+    <div class="col col-md-auto" *ngIf="items.length > 0">
+      <ul class="list-group">
+        <li class="list-group-item" *ngFor="let item of items" [class.completed]="item.complete">
+          <div class="list">
+            <input class="check" type="checkbox" (click)="checkItemDone(item)" [checked]="item.complete">
+            <span>&nbsp;</span>
+            <label>{{item.text}}</label>
+            <span>&nbsp;&nbsp;</span>
+            <button type="button" class="btn btn-danger btn-xs" (click)="removeItem(item)">remove</button>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+</body>
+
+</html>
+
