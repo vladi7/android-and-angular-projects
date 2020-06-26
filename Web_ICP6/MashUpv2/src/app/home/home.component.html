@@ -1,0 +1,36 @@
+<div class="parent-container">
+  <div class="child-container">
+    <h2>Hello, Welcome to <b>Find Your Recipe!!!
+    </b></h2>
+    <div class="container-fluid">
+        <div class="row form-group">
+          <div class="col form-group input-group">
+
+          </div>
+        </div>
+<!--App Description-->
+        <div class="row form-group">
+          <div class="col">
+            <span class="desc">This App was Created Using Angular 9, Bootstrap 4, and Firebase</span><br><br><br>
+            <span class="desc">Find Your Recipe in a Mashup Web Application which is built using <i> Foursquare & Edamam's Recipe Search API </i> . This application finds Recipe, or the place where to find that Food or Anything Else.</span><br><br><br>
+          </div>
+        </div>
+    </div>
+    <!--Current time and date display-->
+    <div class="container-fluid text-center dateTime">
+
+      <div class="row">
+        <div class="col-12">
+          <div class="center-block timeDiv">
+            <h1>Current Time:</h1>
+            <span class="textTimeDate">{{ time | date: 'hh:mm:ss a' }}</span>
+          </div>
+          <div class="center-block dateDiv">
+            <h1>Current Date:</h1>
+            <span class="textTimeDate">{{ time | date: 'dd/MM/yyyy' }}</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

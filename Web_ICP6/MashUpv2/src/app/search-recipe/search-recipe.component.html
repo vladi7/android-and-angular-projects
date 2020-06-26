@@ -1,0 +1,54 @@
+<div class="parent-container">
+  <div class="child-container">
+    <h2><b>Search for any recipe!
+    </b></h2><br>
+<!--Error handling-->
+    <div *ngIf="errors" class="alert alert-danger">
+      {{ errors }}
+    </div>
+<!--Getting the user input-->
+    <div class="container-fluid">
+      <form ngNoForm >
+        <div class="row form-group">
+          <div class="col form-group input-group">
+            <input #recipe (keyup.enter)="getRecipies()" class="form-control" placeholder="Recipe name" type="text">
+          </div>
+        </div>
+<!--getting the calories bounds and card bounds-->
+        <div class="row form-group">
+            <div class="col">
+              <button (click)="getRecipies()" button type="button" class="btn btn-primary">Search Recipe</button>
+            </div>
+          </div>
+        <div class="row form-group">
+          <div class="col">
+            <input #minCal placeholder="Min Calories" type="number" >
+            <input #maxCal placeholder="Max Calories" type="number" >
+            <input #max placeholder="# To Display" type="number" >
+          </div>
+        </div>
+      </form>
+    </div>
+<!--displaying the result-->
+<div class="container">
+  <div class="row">
+    <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-xs-6" *ngFor="let recipe of recipeList">
+      <div class="card bg-dark text-white" style="margin: 20px auto;">
+        <div class="img-wrapper">
+          <img class="img-responsive" src="{{recipe.icon}}">
+          <div class="img-overlay">
+            <a href="{{recipe.url}}" target="_blank" class="btn-md btn btn-outline-danger">View The Recipe</a>
+          </div>
+        </div>
+
+        <div>
+          <div class="card-body">
+            <h5 class="card-title">{{recipe.name | slice:0:30}}</h5>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+

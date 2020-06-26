@@ -1,0 +1,85 @@
+/*CSS for the search recipe component*/
+.parent-container {
+  position: relative;
+  height:100%;
+  width: 100%;
+}
+
+.child-container {
+  color: white;
+  text-align: center;
+  position: center;
+
+}
+.desc {
+  font-family: Georgia;
+  font-size: 17px;
+}
+
+.thumbnail {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
+  transition: 0.3s;
+  min-width: 40%;
+  border-radius: 5px;
+}
+
+.thumbnail-description {
+  min-height: 40px;
+}
+
+.thumbnail:hover {
+  cursor: pointer;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 1);
+}
+.mainCard{
+  width: 18rem;
+  height: 25rem;
+}
+.card {
+  margin-bottom: 15px;
+  min-height: 330px;
+  max-height: 330px;
+}
+
+.card-img-top {
+  height: 200px;
+  object-fit: cover;
+}
+.img-wrapper {
+  position: relative;
+}
+
+.img-responsive {
+  width: 100%;
+  height: auto;
+}
+
+.img-overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  text-align: center;
+}
+
+.img-overlay:before {
+  content: ' ';
+  display: block;
+  height: 50%;
+}
+.btn-success{
+}
+
+.truncate {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.content {
+  width:100%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}

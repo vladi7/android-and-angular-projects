@@ -1,0 +1,72 @@
+<div class="parent-container">
+  <div class="child-container">
+    <h2><b>Search for Any Place in Any City or Near You
+    </b></h2><br>
+<!--Error handling-->
+    <div *ngIf="errors" class="alert alert-danger">
+      {{ errors }}
+    </div>
+    <div class="container-fluid">
+      <form>
+        <div class="row form-group">
+          <div class="col form-group input-group">
+<!--gets recipe from user input-->
+            <input #recipe (keyup.enter)="getVenues()" class="form-control" placeholder="Recipe name" type="text">
+          </div>
+<!--gets places from user input, otherwise gets the gps coordinates of the user-->
+          <div class="col form-group input-group">
+            <input #place (keyup.enter)="getVenues()" class="form-control" placeholder="Country, State, City, County, or Street" type="text">
+          </div>
+        </div>
+<!--button to start the request. Enter(return can be used alternatively)-->
+        <div class="row form-group">
+          <div class="col">
+            <button (click)="getVenues()" button type="button" class="btn btn-primary">Search Venues</button>
+          </div>
+        </div>
+<!--Gets the number of Cards to display-->
+        <div class="row form-group">
+          <div class="col">
+            <input #max placeholder="# To Display" type="number" >
+          </div>
+        </div>
+      </form>
+    </div>
+<!--Displays the output of the requests, if categories available then uses them to display the icon, otherwise use the default icon-->
+    <div class="container">
+      <div class="row">
+        <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-xs-6" *ngFor="let venue of venueList">
+          <div class="card bg-dark text-white" style="margin: 20px auto;">
+            <div *ngIf="venue.categories?.length > 0">
+            <div class="img-wrapper"  *ngFor="let category of venue.categories">
+              <img class="img-responsive" src="{{get_image_url(category.icon)}}">
+              <div class="img-overlay">
+                <a class="btn-md btn btn-outline-danger" target="_blank" href="http://maps.google.com/maps?saddr={{currentLat}},{{currentLong}}
+             &daddr={{venue.location.formattedAddress[0]}},{{venue.location.formattedAddress[1]}},{{venue.location.formattedAddress[2]}}">Find this {{category.name}} On Google Map</a>
+              </div>
+            </div>
+            </div>
+            <div *ngIf="venue.categories?.length == 0">
+              <div class="img-wrapper">
+                <img class="img-responsive" src="../../assets/google.png">
+                <div class="img-overlay">
+                  <a class="btn-md btn btn-outline-danger" target="_blank" href="http://maps.google.com/maps?saddr={{currentLat}},{{currentLong}}
+             &daddr={{venue.location.formattedAddress[0]}},{{venue.location.formattedAddress[1]}},{{venue.location.formattedAddress[2]}}">Find this place On Google Map</a>
+                </div>
+              </div>
+            </div>
+            <div>
+              <div class="card-body">
+                <h5 class="card-title">{{venue.name | slice:0:30}}</h5>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
