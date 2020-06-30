@@ -1,0 +1,77 @@
+<section id="header">
+  <app-header></app-header>
+</section>
+<div class="container-fluid" id="content">
+
+  <div class="button-row">
+    <a class="btn btn-info" [routerLink]="['/books']">
+      Go Back to Book List
+    </a>
+  </div>
+  <div class="row">
+    <div class='col-md-6'>
+      <mat-card class="example-card">
+        <form [formGroup]="bookForm" (ngSubmit)="onFormSubmit(bookForm.value)">
+          <mat-form-field class="example-full-width">
+            <input matInput placeholder="ISBN" formControlName="isbn" [value]="book.isbn" [(ngModel)]="book.isbn"
+                   [errorStateMatcher]="matcher">
+            <mat-error>
+              <span *ngIf="!bookForm.get('isbn').valid && bookForm.get('isbn').touched">Please enter ISBN</span>
+            </mat-error>
+          </mat-form-field>
+          <mat-form-field class="example-full-width">
+            <input matInput placeholder="Title" formControlName="title" [value]="book.title" [(ngModel)]="book.title"
+                   [errorStateMatcher]="matcher">
+            <mat-error>
+              <span *ngIf="!bookForm.get('title').valid && bookForm.get('title').touched">Please enter Book Title</span>
+            </mat-error>
+          </mat-form-field>
+          <mat-form-field class="example-full-width">
+            <input matInput placeholder="Author" formControlName="author" [value]="book.author"
+                   [(ngModel)]="book.author"
+                   [errorStateMatcher]="matcher">
+            <mat-error>
+              <span
+                *ngIf="!bookForm.get('author').valid && bookForm.get('author').touched">Please enter Book Author</span>
+            </mat-error>
+          </mat-form-field>
+          <mat-form-field class="example-full-width">
+    <textarea matInput placeholder="Description" formControlName="description" [value]="book.description"
+              [(ngModel)]="book.description"
+              [errorStateMatcher]="matcher"></textarea>
+            <mat-error>
+              <span *ngIf="!bookForm.get('description').valid && bookForm.get('description').touched">Please enter Book Description</span>
+            </mat-error>
+          </mat-form-field>
+          <mat-form-field class="example-full-width">
+            <input matInput placeholder="Publisher" formControlName="publisher" [value]="book.publisher"
+                   [(ngModel)]="book.publisher"
+                   [errorStateMatcher]="matcher">
+            <mat-error>
+              <span
+                *ngIf="!bookForm.get('publisher').valid && bookForm.get('publisher').touched">Please enter Publisher</span>
+            </mat-error>
+          </mat-form-field>
+          <mat-form-field class="example-full-width">
+            <input matInput placeholder="Published Year" formControlName="published_year" [value]="book.published_year"
+                   [(ngModel)]="book.published_year"
+                   [errorStateMatcher]="matcher">
+            <mat-error>
+              <span *ngIf="!bookForm.get('published_year').valid && bookForm.get('published_year').touched">Please enter Published Year</span>
+            </mat-error>
+          </mat-form-field>
+          <div class="button-row">
+            <button type="submit" [disabled]="!bookForm.valid" class="btn btn-info">
+              Save
+            </button>
+          </div>
+        </form>
+      </mat-card>
+    </div>
+  </div>
+</div>
+
+<!--footer section-->
+<footer id="footer">
+  <p>Vlad Dubrovenski for CSEE 5590</p>
+</footer>

@@ -1,0 +1,17 @@
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <!--Header component with mobile friendly navbar(collapses when the screen is minimized)-->
+  <button class="navbar-toggler" type="button"
+          (click)="toggleNavbar()">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <!--Three links using the router link-->
+  <div class="collapse navbar-collapse"
+       [ngClass]="{ 'show': navbarOpen }">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item" ><a class="nav-link" routerLink="/books">All Books</a></li>
+    </ul>
+  </div>
+</nav>
+
+

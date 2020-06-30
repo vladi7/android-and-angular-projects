@@ -1,0 +1,30 @@
+.example-container {
+  display: flex;
+  flex-direction: column;
+  max-height: 500px;
+  min-width: 300px;
+  overflow: auto;
+}
+
+.isbn-col {
+  flex: 0 0 100px !important;
+  white-space: unset !important;
+}
+
+.button-row {
+  margin: 10px 0;
+}
+#footer{
+  padding:3rem;
+  background-color: #4799d0;
+  text-align: center;
+}
+/*content section*/
+#content{
+  background-color: #8ed0d7;
+  font-family: 'Ubuntu', sans-serif;
+  color: black;
+  padding: 5% 15% ;
+  background-size: cover;
+  min-height: 850px;
+}

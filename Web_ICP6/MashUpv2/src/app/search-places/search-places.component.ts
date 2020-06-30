@@ -41,14 +41,14 @@ export class SearchPlacesComponent implements OnInit {
     this.errors = null;
 
     if (this.placeValue != null && this.placeValue !== '' && this.recipeValue != null && this.recipeValue !== '' && this.max !== '' && this.max != null) {
-      this.getService.getPlaces(this.recipeValue, this.placeValue, this.max).
-      subscribe(respPlaces => {
-        const resp = 'response';
-        const venues = 'venues';
-        this.venueList = respPlaces[resp][venues];
-      }, error => {
-        this.errors = 'Error when submitting request. Check your input. Also, you might need to wait since the api calls are limited.';
-      });
+        this.getService.getPlaces(this.recipeValue, this.placeValue, this.max).
+        subscribe(respPlaces => {
+          const resp = 'response';
+          const venues = 'venues';
+          this.venueList = respPlaces[resp][venues];
+        }, error => {
+          this.errors = 'Error when submitting request. Check your input. Also, you might need to wait since the api calls are limited.';
+        });
     }
     else if (this.placeValue != null && this.placeValue !== '' && this.recipeValue != null && this.recipeValue !== '') {
       this.getService.getPlacesPlaceAndRecipe(this.recipeValue, this.placeValue).subscribe(respPlaces => {
