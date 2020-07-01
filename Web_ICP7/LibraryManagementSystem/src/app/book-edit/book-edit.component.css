@@ -26,5 +26,8 @@
   color: black;
   padding: 5% 15% ;
   background-size: cover;
-  min-height: 850px;
+  min-height: 1070px;
+}
+.example-card{
+  background-color: aqua;
 }

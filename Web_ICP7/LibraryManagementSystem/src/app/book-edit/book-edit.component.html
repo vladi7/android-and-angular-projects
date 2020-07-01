@@ -8,54 +8,52 @@
       Go Back to Book List
     </a>
   </div>
+
+<!--Copy of book create with the addition of the default values. -->
   <div class="row">
     <div class='col-md-6'>
       <mat-card class="example-card">
         <form [formGroup]="bookForm" (ngSubmit)="onFormSubmit(bookForm.value)">
           <mat-form-field class="example-full-width">
-            <input matInput placeholder="ISBN" formControlName="isbn" [value]="book.isbn" [(ngModel)]="book.isbn"
-                   [errorStateMatcher]="matcher">
+            <input matInput placeholder="ISBN" formControlName="isbn"
+                   [errorStateMatcher]="matcher" [(ngModel)]="book.isbn">
             <mat-error>
               <span *ngIf="!bookForm.get('isbn').valid && bookForm.get('isbn').touched">Please enter ISBN</span>
             </mat-error>
           </mat-form-field>
           <mat-form-field class="example-full-width">
-            <input matInput placeholder="Title" formControlName="title" [value]="book.title" [(ngModel)]="book.title"
-                   [errorStateMatcher]="matcher">
+            <input matInput placeholder="Title" formControlName="title"
+                   [errorStateMatcher]="matcher" [(ngModel)]="book.title">
             <mat-error>
               <span *ngIf="!bookForm.get('title').valid && bookForm.get('title').touched">Please enter Book Title</span>
             </mat-error>
           </mat-form-field>
           <mat-form-field class="example-full-width">
-            <input matInput placeholder="Author" formControlName="author" [value]="book.author"
-                   [(ngModel)]="book.author"
-                   [errorStateMatcher]="matcher">
+            <input matInput placeholder="Author" formControlName="author"
+                   [errorStateMatcher]="matcher" [(ngModel)]="book.author">
             <mat-error>
               <span
                 *ngIf="!bookForm.get('author').valid && bookForm.get('author').touched">Please enter Book Author</span>
             </mat-error>
           </mat-form-field>
           <mat-form-field class="example-full-width">
-    <textarea matInput placeholder="Description" formControlName="description" [value]="book.description"
-              [(ngModel)]="book.description"
-              [errorStateMatcher]="matcher"></textarea>
+    <textarea matInput placeholder="Description" formControlName="description"
+              [errorStateMatcher]="matcher" [(ngModel)]="book.description"></textarea>
             <mat-error>
               <span *ngIf="!bookForm.get('description').valid && bookForm.get('description').touched">Please enter Book Description</span>
             </mat-error>
           </mat-form-field>
           <mat-form-field class="example-full-width">
-            <input matInput placeholder="Publisher" formControlName="publisher" [value]="book.publisher"
-                   [(ngModel)]="book.publisher"
-                   [errorStateMatcher]="matcher">
+            <input matInput placeholder="Publisher" formControlName="publisher"
+                   [errorStateMatcher]="matcher" [(ngModel)]="book.publisher">
             <mat-error>
               <span
                 *ngIf="!bookForm.get('publisher').valid && bookForm.get('publisher').touched">Please enter Publisher</span>
             </mat-error>
           </mat-form-field>
           <mat-form-field class="example-full-width">
-            <input matInput placeholder="Published Year" formControlName="published_year" [value]="book.published_year"
-                   [(ngModel)]="book.published_year"
-                   [errorStateMatcher]="matcher">
+            <input matInput placeholder="Published Year" formControlName="published_year"
+                   [errorStateMatcher]="matcher" [(ngModel)]="book.published_year">
             <mat-error>
               <span *ngIf="!bookForm.get('published_year').valid && bookForm.get('published_year').touched">Please enter Published Year</span>
             </mat-error>

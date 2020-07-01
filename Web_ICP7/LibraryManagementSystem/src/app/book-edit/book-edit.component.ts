@@ -9,14 +9,18 @@ import {Router, ActivatedRoute} from '@angular/router';
   styleUrls: ['./book-edit.component.css']
 })
 export class BookEditComponent implements OnInit {
-  bookForm: FormGroup;
   book = {};
   id;
+  bookForm: FormGroup;
+
   constructor( private currentRoute: ActivatedRoute,
               private api: ApiService, private routerInject: Router,
               private formBuilder: FormBuilder) {
+    // getting the current id
     this.id = this.currentRoute.snapshot.params['id'];
+    //getting the book details
     this.getBookDetails(this.id);
+    //getting the book for empty before it will be populated with ngmodel
     this.bookForm = this.formBuilder.group({
       'isbn': [' ', Validators.required],
       'title': [' ', Validators.required],
@@ -29,12 +33,15 @@ export class BookEditComponent implements OnInit {
   ngOnInit() {
 
   }
+
+  //method to get the book details
   getBookDetails(id) {
     this.api.getBook(id)
       .subscribe(data => {
         this.book = data;
       });
   }
+  //method to submit the form
   onFormSubmit(form: NgForm) {
     this.api.updateBook(this.id, form)
       .subscribe(res => {

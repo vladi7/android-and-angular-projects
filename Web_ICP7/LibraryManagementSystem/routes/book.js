@@ -25,13 +25,14 @@ router.post('/', function (req, res, next) {
     res.json(post);
   });
 });
-
+//request to router to update the database entry with the new entry by id
 router.put('/:id', function(req, res, next) {
   Book.findByIdAndUpdate(req.params.id, req.body, function (err, post) {
     if (err) return next(err);
     res.json(post);
   });
 });
+//request to router to delete the database entry by id
 router.delete('/:id', function(req, res, next) {
   Book.deleteOne({_id: req.params.id}, function (err, post) {
     if (err) return next(err);
