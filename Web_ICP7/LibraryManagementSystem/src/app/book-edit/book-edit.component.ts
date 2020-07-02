@@ -41,14 +41,14 @@ export class BookEditComponent implements OnInit {
         this.book = data;
       });
   }
-  //method to submit the form
-  onFormSubmit(form: NgForm) {
-    this.api.updateBook(this.id, form)
-      .subscribe(res => {
-        const id = res['_id'];
-        this.routerInject.navigate(['/book-details', id]);
-      });
-  }
+        //method to submit the form
+        onFormSubmit(form: NgForm) {
+          this.api.updateBook(this.id, form)
+            .subscribe(res => {
+              const id = res['_id'];
+              this.routerInject.navigate(['/book-details', id]);
+            });
+        }
 }
 
 
