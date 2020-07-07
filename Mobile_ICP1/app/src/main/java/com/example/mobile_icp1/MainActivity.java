@@ -53,15 +53,15 @@ public class MainActivity extends AppCompatActivity {
             //decrease the counter for attempts left
             i--;
             //showing the warning dialog
-            AlertDialog.Builder dlgAlert  = new AlertDialog.Builder(this);
+            AlertDialog.Builder alert  = new AlertDialog.Builder(this);
 
-            dlgAlert.setMessage("Wrong Login Credentials! " + i +" attempts left");
-            dlgAlert.setTitle("WRONG LOGIN/PASSWORD");
-            dlgAlert.setPositiveButton("OK", null);
-            dlgAlert.setCancelable(true);
-            dlgAlert.create().show();
+            alert.setMessage("Wrong Login Credentials! " + i +" attempts left");
+            alert.setTitle("WRONG LOGIN/PASSWORD");
+            alert.setPositiveButton("OK", null);
+            alert.setCancelable(true);
+            alert.create().show();
 
-            dlgAlert.setPositiveButton("Ok",
+            alert.setPositiveButton("Ok",
                     new DialogInterface.OnClickListener() {
                         public void onClick(DialogInterface dialog, int which) {
 
