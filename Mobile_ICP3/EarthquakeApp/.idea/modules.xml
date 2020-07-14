@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/EarthquakeApp.iml" filepath="$PROJECT_DIR$/.idea/modules/EarthquakeApp.iml" group="EarthquakeApp" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/app.iml" group="EarthquakeApp/app" />
+    </modules>
+  </component>
+</project>
