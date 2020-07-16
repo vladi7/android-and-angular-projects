@@ -1,0 +1,685 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="C:\Users\dubro\.gradle\caches\transforms-1\files-1.1\play-services-vision-common-11.0.4.aar\e91c494b3de57ecc54c1de1ffd01cdcf\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="15"
+        optimize="true"
+        revision="26.0.2"
+        sha1="6b3430725095bd46b785e97bd34240826c27b4db">
+        <dex dex="C:\Users\dubro\WebMobile-2020Summer\Mobile_ICP4\AndroidHardware\app\build\intermediates\transforms\preDex\release\39.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\dubro\.gradle\caches\transforms-1\files-1.1\play-services-gass-11.0.4.aar\c63eb8fd19115da32db630c65ff60b2d\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="15"
+        optimize="true"
+        revision="26.0.2"
+        sha1="34c23b5894b4f24d566bfc33e0e25462c6436b78">
+        <dex dex="C:\Users\dubro\WebMobile-2020Summer\Mobile_ICP4\AndroidHardware\app\build\intermediates\transforms\preDex\release\53.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\dubro\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\3fe2b6a2f51addeba27b01f615a74ee0\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="15"
+        optimize="true"
+        revision="26.0.2"
+        sha1="508f50705b4fde51a16259f29c854201a3044516">
+        <dex dex="C:\Users\dubro\WebMobile-2020Summer\Mobile_ICP4\AndroidHardware\app\build\intermediates\transforms\preDex\release\60.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\dubro\.gradle\caches\transforms-1\files-1.1\palette-v7-25.2.0.aar\078459a7b2a6a30308de92c36637fbc3\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="15"
+        optimize="true"
+        revision="26.0.2"
+        sha1="9be5e957849eb82ad9addf9bdb2896de8bf5654b">
+        <dex dex="C:\Users\dubro\WebMobile-2020Summer\Mobile_ICP4\AndroidHardware\app\build\intermediates\transforms\preDex\release\62.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\dubro\.gradle\caches\transforms-1\files-1.1\play-services-plus-11.0.4.aar\97c72ab644e21c6fa54931ece3e18d6a\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="15"
+        optimize="true"
+        revision="26.0.2"
+        sha1="057fb316bed8467398333f30926c2d5506e275b2">
+        <dex dex="C:\Users\dubro\WebMobile-2020Summer\Mobile_ICP4\AndroidHardware\app\build\intermediates\transforms\preDex\release\36.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\dubro\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.0.4.aar\0de45b887eb62ab0e6f95d320785eb70\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="15"
+        optimize="true"
+        revision="26.0.2"
+        sha1="e5b429c146094a612134910688d169ec08deeefb">
+        <dex dex="C:\Users\dubro\WebMobile-2020Summer\Mobile_ICP4\AndroidHardware\app\build\intermediates\transforms\preDex\release\47.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\dubro\.gradle\caches\transforms-1\files-1.1\firebase-database-connection-11.0.4.aar\20de2b3fe1dd92344326a5b61c28d819\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="15"
+        optimize="true"
+        revision="26.0.2"
+        sha1="1b12397bc9f342b29d9e9108978828f99a6da579">
+        <dex dex="C:\Users\dubro\WebMobile-2020Summer\Mobile_ICP4\AndroidHardware\app\build\intermediates\transforms\preDex\release\44.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\dubro\.gradle\caches\transforms-1\files-1.1\mediarouter-v7-25.2.0.aar\8c26449944d2038301bd2b4aae2b8861\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="15"
+        optimize="true"
+        revision="26.0.2"
+        sha1="af13a350b71b437ebf4be335d02a8f785c39b111">
+        <dex dex="C:\Users\dubro\WebMobile-2020Summer\Mobile_ICP4\AndroidHardware\app\build\intermediates\transforms\preDex\release\8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\dubro\.gradle\caches\transforms-1\files-1.1\play-services-tasks-11.0.4.aar\d8ce0a7dc28dd69ba2708638696a5f38\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="15"
+        optimize="true"
+        revision="26.0.2"
+        sha1="2430e711762a749feb00b3d64858ca4768251b9d">
+        <dex dex="C:\Users\dubro\WebMobile-2020Summer\Mobile_ICP4\AndroidHardware\app\build\intermediates\transforms\preDex\release\54.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\dubro\.gradle\caches\transforms-1\files-1.1\firebase-database-11.0.4.aar\84e37a5b3e2574d748562ed7c0fbacb2\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="15"
+        optimize="true"
+        revision="26.0.2"
+        sha1="7c24e2e9773fb498e390ce973db382c3ddcf748e">
+        <dex dex="C:\Users\dubro\WebMobile-2020Summer\Mobile_ICP4\AndroidHardware\app\build\intermediates\transforms\preDex\release\43.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\dubro\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-11.0.4.aar\57c0eab4daac03053dfcfa12d04ddba7\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="15"
+        optimize="true"
+        revision="26.0.2"
+        sha1="e1625e48a836779b5fa141d22e5d05563aaccc9a">
+        <dex dex="C:\Users\dubro\WebMobile-2020Summer\Mobile_ICP4\AndroidHardware\app\build\intermediates\transforms\preDex\release\48.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\dubro\.gradle\caches\transforms-1\files-1.1\play-services-tagmanager-v4-impl-11.0.4.aar\f465e8162cb91991e51ee6117ffd9423\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="15"
+        optimize="true"
+        revision="26.0.2"
+        sha1="c1b91bc7e480ab100d0397b16c93732e26fd10eb">
+        <dex dex="C:\Users\dubro\WebMobile-2020Summer\Mobile_ICP4\AndroidHardware\app\build\intermediates\transforms\preDex\release\15.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\dubro\.gradle\caches\transforms-1\files-1.1\play-services-safetynet-11.0.4.aar\b99632b63a2fb8463ca8c5c5d1181637\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="15"
+        optimize="true"
+        revision="26.0.2"
+        sha1="f2cb88e7e28736d44e7e643deb80c9af1c3662c8">
+        <dex dex="C:\Users\dubro\WebMobile-2020Summer\Mobile_ICP4\AndroidHardware\app\build\intermediates\transforms\preDex\release\37.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\dubro\.gradle\caches\transforms-1\files-1.1\play-services-vision-11.0.4.aar\de0a94a832645dd9f24f0ec6f9eb381c\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="15"
+        optimize="true"
+        revision="26.0.2"
+        sha1="63b03eaa1aa9b9431c7638841175f9842dcbf274">
+        <dex dex="C:\Users\dubro\WebMobile-2020Summer\Mobile_ICP4\AndroidHardware\app\build\intermediates\transforms\preDex\release\38.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\dubro\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.0.4.aar\3ab350c37b5c8e46d7a764ef1dc96e76\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="15"
+        optimize="true"
+        revision="26.0.2"
+        sha1="ed87ccdcb70c17d71ba4e6e4ac16afa62d3c49fb">
+        <dex dex="C:\Users\dubro\WebMobile-2020Summer\Mobile_ICP4\AndroidHardware\app\build\intermediates\transforms\preDex\release\49.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\dubro\.gradle\caches\transforms-1\files-1.1\play-services-identity-11.0.4.aar\18e5c041eb5eb40c8f365da93d9421a6\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="15"
+        optimize="true"
+        revision="26.0.2"
+        sha1="c8bf878c09bf0df6ae76eb6c2df38c6a186b38b7">
+        <dex dex="C:\Users\dubro\WebMobile-2020Summer\Mobile_ICP4\AndroidHardware\app\build\intermediates\transforms\preDex\release\30.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\dubro\.gradle\caches\transforms-1\files-1.1\firebase-common-11.0.4.aar\fb439823be9924be3c4a88c3a333e392\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="15"
+        optimize="true"
+        revision="26.0.2"
+        sha1="43e9789bd3240271265ab30ce1be9f224843f5a8">
+        <dex dex="C:\Users\dubro\WebMobile-2020Summer\Mobile_ICP4\AndroidHardware\app\build\intermediates\transforms\preDex\release\52.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\dubro\.gradle\caches\transforms-1\files-1.1\play-services-wearable-11.0.4.aar\b5eda5ae794116f5290b1e59175896ed\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="15"
+        optimize="true"
+        revision="26.0.2"
+        sha1="c6aa915c08cfd82780c10d4b957018bf819a48e2">
+        <dex dex="C:\Users\dubro\WebMobile-2020Summer\Mobile_ICP4\AndroidHardware\app\build\intermediates\transforms\preDex\release\40.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\dubro\.gradle\caches\transforms-1\files-1.1\play-services-wallet-11.0.4.aar\cef313a4a92b112d487ff237e4b98897\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="15"
+        optimize="true"
+        revision="26.0.2"
+        sha1="a5d52089bf4d31537232bb6bcb70cee817d8a374">
+        <dex dex="C:\Users\dubro\WebMobile-2020Summer\Mobile_ICP4\AndroidHardware\app\build\intermediates\transforms\preDex\release\4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\dubro\.gradle\caches\transforms-1\files-1.1\play-services-awareness-11.0.4.aar\aa45ec17749f41d300beea092ca5e265\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="15"
+        optimize="true"
+        revision="26.0.2"
+        sha1="c72b1515efbd8ad652e2d63582c8234a979b1e53">
+        <dex dex="C:\Users\dubro\WebMobile-2020Summer\Mobile_ICP4\AndroidHardware\app\build\intermediates\transforms\preDex\release\2.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\dubro\.gradle\caches\transforms-1\files-1.1\play-services-instantapps-11.0.4.aar\f1272b4710fd2dda21f942a488fd1df0\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="15"
+        optimize="true"
+        revision="26.0.2"
+        sha1="2b12b18c5518021cc71577c83d1290f8ddaa3c98">
+        <dex dex="C:\Users\dubro\WebMobile-2020Summer\Mobile_ICP4\AndroidHardware\app\build\intermediates\transforms\preDex\release\32.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\dubro\.gradle\caches\transforms-1\files-1.1\firebase-auth-11.0.4.aar\853c0621f4d6200cdef1488ec5346a23\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="15"
+        optimize="true"
+        revision="26.0.2"
+        sha1="b5b6af36bacf1d812cd3dc45f9dcab9ea471ed91">
+        <dex dex="C:\Users\dubro\WebMobile-2020Summer\Mobile_ICP4\AndroidHardware\app\build\intermediates\transforms\preDex\release\25.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\dubro\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\81bfb67ddb823bf0d83bbc0435d96c77\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="15"
+        optimize="true"
+        revision="26.0.2"
+        sha1="233f60a165ae622c8b36731502ebbda0f65e1930">
+        <dex dex="C:\Users\dubro\WebMobile-2020Summer\Mobile_ICP4\AndroidHardware\app\build\intermediates\transforms\preDex\release\63.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\dubro\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\b93c3a6e5598879ff70c99a0de04cd0f\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="15"
+        optimize="true"
+        revision="26.0.2"
+        sha1="2442771a5590dd4eb4bce00c2e9dca9e22e4c963">
+        <dex dex="C:\Users\dubro\WebMobile-2020Summer\Mobile_ICP4\AndroidHardware\app\build\intermediates\transforms\preDex\release\64.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\dubro\.gradle\caches\transforms-1\files-1.1\play-services-analytics-impl-11.0.4.aar\f6ef0f4b73b80f95f9919f4f0b67e403\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="15"
+        optimize="true"
+        revision="26.0.2"
+        sha1="2c2f1b3f82c027e98f56bb0154de0acbcce42e6d">
+        <dex dex="C:\Users\dubro\WebMobile-2020Summer\Mobile_ICP4\AndroidHardware\app\build\intermediates\transforms\preDex\release\16.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\dubro\.gradle\caches\transforms-1\files-1.1\play-services-ads-lite-11.0.4.aar\7fa6353ffb0a40e45d574d1b507dfe2c\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="15"
+        optimize="true"
+        revision="26.0.2"
+        sha1="416fb9ee2fd6e7af0bba04b01d90cb475b1e2074">
+        <dex dex="C:\Users\dubro\WebMobile-2020Summer\Mobile_ICP4\AndroidHardware\app\build\intermediates\transforms\preDex\release\12.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\dubro\.gradle\caches\transforms-1\files-1.1\play-services-appinvite-11.0.4.aar\95a2db7bb98b17e48bc5f1fe7ba690c8\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="15"
+        optimize="true"
+        revision="26.0.2"
+        sha1="576570f46ff6ccc69a984af9e55ddd58d9549270">
+        <dex dex="C:\Users\dubro\WebMobile-2020Summer\Mobile_ICP4\AndroidHardware\app\build\intermediates\transforms\preDex\release\17.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\dubro\.gradle\caches\transforms-1\files-1.1\firebase-storage-common-11.0.4.aar\cfbcd6fdffa1d8c82ddae9dedb4ec0f8\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="15"
+        optimize="true"
+        revision="26.0.2"
+        sha1="4b685077cdb08cf7ae8b61afd1fe910e47d91b9a">
+        <dex dex="C:\Users\dubro\WebMobile-2020Summer\Mobile_ICP4\AndroidHardware\app\build\intermediates\transforms\preDex\release\51.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\dubro\.gradle\caches\transforms-1\files-1.1\play-services-tagmanager-11.0.4.aar\7c48a5001330f7918b7957f4e7a5e7b5\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="15"
+        optimize="true"
+        revision="26.0.2"
+        sha1="c175c3009577fad8b433703f5d7ac2dc21d3871f">
+        <dex dex="C:\Users\dubro\WebMobile-2020Summer\Mobile_ICP4\AndroidHardware\app\build\intermediates\transforms\preDex\release\14.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\dubro\.gradle\caches\transforms-1\files-1.1\firebase-messaging-11.0.4.aar\8b142ca2eb2432bbf9091fd65efe4c26\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="15"
+        optimize="true"
+        revision="26.0.2"
+        sha1="f47f4d5bdfd7d7bf330945b8a7ccce4ab437a710">
+        <dex dex="C:\Users\dubro\WebMobile-2020Summer\Mobile_ICP4\AndroidHardware\app\build\intermediates\transforms\preDex\release\45.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\dubro\.gradle\caches\transforms-1\files-1.1\play-services-maps-11.0.4.aar\dc7c53e7b88407981acd7d17e7b01177\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="15"
+        optimize="true"
+        revision="26.0.2"
+        sha1="fcae52a60bc07924d370b4d376116cd8f8581f54">
+        <dex dex="C:\Users\dubro\WebMobile-2020Summer\Mobile_ICP4\AndroidHardware\app\build\intermediates\transforms\preDex\release\5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\dubro\.gradle\caches\transforms-1\files-1.1\play-services-location-11.0.4.aar\c3727c3e8fedcbc4d0fd8dfafface9f6\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="15"
+        optimize="true"
+        revision="26.0.2"
+        sha1="41f47bbcd281fdb1e42e220220ab3bfa1da591e0">
+        <dex dex="C:\Users\dubro\WebMobile-2020Summer\Mobile_ICP4\AndroidHardware\app\build\intermediates\transforms\preDex\release\33.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\dubro\.gradle\caches\modules-2\files-2.1\com.android.support.constraint\constraint-layout-solver\1.0.2\b9cd8fc6bd15cb915735d34535db30ece0c44603\constraint-layout-solver-1.0.2.jar"
+        jumboMode="false"
+        min-sdk-version="15"
+        optimize="true"
+        revision="26.0.2"
+        sha1="b9cd8fc6bd15cb915735d34535db30ece0c44603">
+        <dex dex="C:\Users\dubro\WebMobile-2020Summer\Mobile_ICP4\AndroidHardware\app\build\intermediates\transforms\preDex\release\66.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\dubro\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\d0ab43afcb2ab2ba79dda6ae835c49d0\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="15"
+        optimize="true"
+        revision="26.0.2"
+        sha1="b62fdc4cfef174c1e456014195c83fa7de7dc041">
+        <dex dex="C:\Users\dubro\WebMobile-2020Summer\Mobile_ICP4\AndroidHardware\app\build\intermediates\transforms\preDex\release\67.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\dubro\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\a3907d96a63caef1d0e13d22babe27b6\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="15"
+        optimize="true"
+        revision="26.0.2"
+        sha1="f428e2fbc9ed0b297e3a3f420e51e6982f66822d">
+        <dex dex="C:\Users\dubro\WebMobile-2020Summer\Mobile_ICP4\AndroidHardware\app\build\intermediates\transforms\preDex\release\9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\dubro\.gradle\caches\transforms-1\files-1.1\play-services-ads-11.0.4.aar\9339320f867c0d1e02ed5669e243d73b\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="15"
+        optimize="true"
+        revision="26.0.2"
+        sha1="2c73e2a93e00abd240e495c1e62217e53904a3f3">
+        <dex dex="C:\Users\dubro\WebMobile-2020Summer\Mobile_ICP4\AndroidHardware\app\build\intermediates\transforms\preDex\release\11.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\dubro\.gradle\caches\transforms-1\files-1.1\play-services-panorama-11.0.4.aar\9bb8f2eff47a56545e7c4f4f2f414d35\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="15"
+        optimize="true"
+        revision="26.0.2"
+        sha1="c6706cc7c8c3093560edd55d322218afe7798aa9">
+        <dex dex="C:\Users\dubro\WebMobile-2020Summer\Mobile_ICP4\AndroidHardware\app\build\intermediates\transforms\preDex\release\35.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\dubro\.gradle\caches\transforms-1\files-1.1\play-services-base-11.0.4.aar\6d7a73ec0b8f94149ceae9d041c30471\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="15"
+        optimize="true"
+        revision="26.0.2"
+        sha1="70ffe00aaf049893f59d1dad57bd82992faa38ef">
+        <dex dex="C:\Users\dubro\WebMobile-2020Summer\Mobile_ICP4\AndroidHardware\app\build\intermediates\transforms\preDex\release\41.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\dubro\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\648f78c8444fc3b9363fe5b173ceb4bf\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="15"
+        optimize="true"
+        revision="26.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="C:\Users\dubro\WebMobile-2020Summer\Mobile_ICP4\AndroidHardware\app\build\intermediates\transforms\preDex\release\56.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\dubro\.gradle\caches\transforms-1\files-1.1\play-services-auth-11.0.4.aar\72a9fc3d0a46185bcbb743457914adc5\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="15"
+        optimize="true"
+        revision="26.0.2"
+        sha1="f5ff5e3811e8c9485fd27f9052ae4d4d23a22d9d">
+        <dex dex="C:\Users\dubro\WebMobile-2020Summer\Mobile_ICP4\AndroidHardware\app\build\intermediates\transforms\preDex\release\19.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\dubro\.gradle\caches\transforms-1\files-1.1\play-services-places-11.0.4.aar\4aaa4b6316655ff402ea17f3b5c937a6\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="15"
+        optimize="true"
+        revision="26.0.2"
+        sha1="5594a368622908d89c47d9a391aa2724fe046c35">
+        <dex dex="C:\Users\dubro\WebMobile-2020Summer\Mobile_ICP4\AndroidHardware\app\build\intermediates\transforms\preDex\release\3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\dubro\.gradle\caches\transforms-1\files-1.1\play-services-basement-11.0.4.aar\36c903b67c3dbd338c92a3c400f04f02\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="15"
+        optimize="true"
+        revision="26.0.2"
+        sha1="364364bf77b4a71afc5930fc3ae57b3f0eea637c">
+        <dex dex="C:\Users\dubro\WebMobile-2020Summer\Mobile_ICP4\AndroidHardware\app\build\intermediates\transforms\preDex\release\55.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\dubro\.gradle\caches\transforms-1\files-1.1\play-services-clearcut-11.0.4.aar\a3507cb728c0d6971f7efa57804a8e30\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="15"
+        optimize="true"
+        revision="26.0.2"
+        sha1="e7f890dd2539b7f2582f450f0721e2dea6ae510c">
+        <dex dex="C:\Users\dubro\WebMobile-2020Summer\Mobile_ICP4\AndroidHardware\app\build\intermediates\transforms\preDex\release\21.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\dubro\.gradle\caches\transforms-1\files-1.1\play-services-auth-api-phone-11.0.4.aar\d75ef231d720fdef817a9bdcdd8e5364\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="15"
+        optimize="true"
+        revision="26.0.2"
+        sha1="76ea35b41786082af23db898ca9e0fc07cc71fb9">
+        <dex dex="C:\Users\dubro\WebMobile-2020Summer\Mobile_ICP4\AndroidHardware\app\build\intermediates\transforms\preDex\release\18.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\dubro\.gradle\caches\transforms-1\files-1.1\play-services-cast-11.0.4.aar\ccf683c71bd88aa2e36d225db31dcee4\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="15"
+        optimize="true"
+        revision="26.0.2"
+        sha1="ffd0ddf5e57b4d60c4a3fbcd38fa20349a0cebd1">
+        <dex dex="C:\Users\dubro\WebMobile-2020Summer\Mobile_ICP4\AndroidHardware\app\build\intermediates\transforms\preDex\release\7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\dubro\.gradle\caches\modules-2\files-2.1\com.android.support\support-annotations\26.1.0\814258103cf26a15fcc26ecce35f5b7d24b73f8\support-annotations-26.1.0.jar"
+        jumboMode="false"
+        min-sdk-version="15"
+        optimize="true"
+        revision="26.0.2"
+        sha1="0814258103cf26a15fcc26ecce35f5b7d24b73f8">
+        <dex dex="C:\Users\dubro\WebMobile-2020Summer\Mobile_ICP4\AndroidHardware\app\build\intermediates\transforms\preDex\release\65.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\dubro\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\9765a4c12f4070a13c1d54d570df4391\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="15"
+        optimize="true"
+        revision="26.0.2"
+        sha1="6f4138a4e065826cb044d49faea4cfd7191773d1">
+        <dex dex="C:\Users\dubro\WebMobile-2020Summer\Mobile_ICP4\AndroidHardware\app\build\intermediates\transforms\preDex\release\61.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\dubro\.gradle\caches\transforms-1\files-1.1\firebase-appindexing-11.0.4.aar\b6f7ff4b8ee5f9149e02a2f3d3483780\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="15"
+        optimize="true"
+        revision="26.0.2"
+        sha1="bfba7cf662f7e3e2cfeb92226c6b84c08e590225">
+        <dex dex="C:\Users\dubro\WebMobile-2020Summer\Mobile_ICP4\AndroidHardware\app\build\intermediates\transforms\preDex\release\29.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\dubro\.gradle\caches\transforms-1\files-1.1\play-services-analytics-11.0.4.aar\b8bc0419abe96256f8eb9f68ba5ed1d6\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="15"
+        optimize="true"
+        revision="26.0.2"
+        sha1="a25b0b5aec89681b95d32780ad7904c1e1e4c679">
+        <dex dex="C:\Users\dubro\WebMobile-2020Summer\Mobile_ICP4\AndroidHardware\app\build\intermediates\transforms\preDex\release\13.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\dubro\.gradle\caches\transforms-1\files-1.1\firebase-config-11.0.4.aar\dedaaf728b6eba25a935cdbaf56c4402\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="15"
+        optimize="true"
+        revision="26.0.2"
+        sha1="eea424e61a0c85b93a0e477565314a58136abaea">
+        <dex dex="C:\Users\dubro\WebMobile-2020Summer\Mobile_ICP4\AndroidHardware\app\build\intermediates\transforms\preDex\release\22.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\dubro\.gradle\caches\modules-2\files-2.1\android.arch.core\common\1.0.0\a2d487452376193fc8c103dd2b9bd5f2b1b44563\common-1.0.0.jar"
+        jumboMode="false"
+        min-sdk-version="15"
+        optimize="true"
+        revision="26.0.2"
+        sha1="a2d487452376193fc8c103dd2b9bd5f2b1b44563">
+        <dex dex="C:\Users\dubro\WebMobile-2020Summer\Mobile_ICP4\AndroidHardware\app\build\intermediates\transforms\preDex\release\69.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\dubro\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\8eab70636f60bc9389a07bb8f8b4e0e2\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="15"
+        optimize="true"
+        revision="26.0.2"
+        sha1="7efef32744ca4a436492d5cf28c08698cc2af256">
+        <dex dex="C:\Users\dubro\WebMobile-2020Summer\Mobile_ICP4\AndroidHardware\app\build\intermediates\transforms\preDex\release\58.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\dubro\.gradle\caches\transforms-1\files-1.1\play-services-fitness-11.0.4.aar\1e65b071664d879682b1634617c10918\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="15"
+        optimize="true"
+        revision="26.0.2"
+        sha1="8544f739799dd15db63927073a21312864ab0bfd">
+        <dex dex="C:\Users\dubro\WebMobile-2020Summer\Mobile_ICP4\AndroidHardware\app\build\intermediates\transforms\preDex\release\27.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\dubro\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\6876e4b6837bc8f7516a136e7b3ab9cf\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="15"
+        optimize="true"
+        revision="26.0.2"
+        sha1="44ee06abb66da30f5855e6bf54574e64cdcd982a">
+        <dex dex="C:\Users\dubro\WebMobile-2020Summer\Mobile_ICP4\AndroidHardware\app\build\intermediates\transforms\preDex\release\10.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\dubro\.gradle\caches\transforms-1\files-1.1\play-services-nearby-11.0.4.aar\60bf4b569e2980a30937f96d15d4c08f\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="15"
+        optimize="true"
+        revision="26.0.2"
+        sha1="2c379c235d7983201bb83edfc3c60bb0dafb5805">
+        <dex dex="C:\Users\dubro\WebMobile-2020Summer\Mobile_ICP4\AndroidHardware\app\build\intermediates\transforms\preDex\release\34.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\dubro\.gradle\caches\transforms-1\files-1.1\play-services-cast-framework-11.0.4.aar\1723a9158975734dabbf55325df36681\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="15"
+        optimize="true"
+        revision="26.0.2"
+        sha1="56d68d1174b9c1e368017a850b62b12429f39757">
+        <dex dex="C:\Users\dubro\WebMobile-2020Summer\Mobile_ICP4\AndroidHardware\app\build\intermediates\transforms\preDex\release\6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\dubro\.gradle\caches\modules-2\files-2.1\android.arch.lifecycle\common\1.0.0\e414a4cb28434e25c4f6aa71426eb20cf4874ae9\common-1.0.0.jar"
+        jumboMode="false"
+        min-sdk-version="15"
+        optimize="true"
+        revision="26.0.2"
+        sha1="e414a4cb28434e25c4f6aa71426eb20cf4874ae9">
+        <dex dex="C:\Users\dubro\WebMobile-2020Summer\Mobile_ICP4\AndroidHardware\app\build\intermediates\transforms\preDex\release\68.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\dubro\.gradle\caches\transforms-1\files-1.1\firebase-dynamic-links-11.0.4.aar\80ee240a9e01c9bb6b7716748f937791\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="15"
+        optimize="true"
+        revision="26.0.2"
+        sha1="dae0d68af4c87df40eca67069861e53b7cefaaa0">
+        <dex dex="C:\Users\dubro\WebMobile-2020Summer\Mobile_ICP4\AndroidHardware\app\build\intermediates\transforms\preDex\release\26.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\dubro\.gradle\caches\transforms-1\files-1.1\play-services-gcm-11.0.4.aar\a7a66bd85b010562d489045a2de7c09b\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="15"
+        optimize="true"
+        revision="26.0.2"
+        sha1="d8942ee348aaa9341f08f7e2437063893fe27542">
+        <dex dex="C:\Users\dubro\WebMobile-2020Summer\Mobile_ICP4\AndroidHardware\app\build\intermediates\transforms\preDex\release\28.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\dubro\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\b5b2a1bc4e9a356f772976f1a0e12b0a\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="15"
+        optimize="true"
+        revision="26.0.2"
+        sha1="f97cf85b0fe70d37a705111dafa6b1b418ea1650">
+        <dex dex="C:\Users\dubro\WebMobile-2020Summer\Mobile_ICP4\AndroidHardware\app\build\intermediates\transforms\preDex\release\57.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\dubro\.gradle\caches\transforms-1\files-1.1\play-services-games-11.0.4.aar\e4c0cc4759a1985822ff45bbc045e7d7\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="15"
+        optimize="true"
+        revision="26.0.2"
+        sha1="377c5f26ebf67f3fa6ef2f663a58cac7ce647dde">
+        <dex dex="C:\Users\dubro\WebMobile-2020Summer\Mobile_ICP4\AndroidHardware\app\build\intermediates\transforms\preDex\release\23.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\dubro\.gradle\caches\transforms-1\files-1.1\firebase-storage-11.0.4.aar\8b4af25f4d61d13416ced261238d02e9\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="15"
+        optimize="true"
+        revision="26.0.2"
+        sha1="3ac08c35419ab7cf9146969de471768dbe502f0f">
+        <dex dex="C:\Users\dubro\WebMobile-2020Summer\Mobile_ICP4\AndroidHardware\app\build\intermediates\transforms\preDex\release\50.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\dubro\.gradle\caches\transforms-1\files-1.1\play-services-auth-base-11.0.4.aar\d89000bf4ca4cb3a136678c67377a9d6\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="15"
+        optimize="true"
+        revision="26.0.2"
+        sha1="0bffdc0bd4f7ca0e27c5bfeef39569f8da00aa26">
+        <dex dex="C:\Users\dubro\WebMobile-2020Summer\Mobile_ICP4\AndroidHardware\app\build\intermediates\transforms\preDex\release\20.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\dubro\.gradle\caches\transforms-1\files-1.1\play-services-tagmanager-api-11.0.4.aar\07a6543062206d26f59c2b7daa64cdfc\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="15"
+        optimize="true"
+        revision="26.0.2"
+        sha1="f15e20dd7bcde7c688cfda44d0c8320a5c1c24b8">
+        <dex dex="C:\Users\dubro\WebMobile-2020Summer\Mobile_ICP4\AndroidHardware\app\build\intermediates\transforms\preDex\release\46.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\dubro\.gradle\caches\transforms-1\files-1.1\play-services-iid-11.0.4.aar\3d7b713b9e39cdf072951ef36284b123\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="15"
+        optimize="true"
+        revision="26.0.2"
+        sha1="dd282bdeaa904c59d77e57dedd7e0a241c9b679d">
+        <dex dex="C:\Users\dubro\WebMobile-2020Summer\Mobile_ICP4\AndroidHardware\app\build\intermediates\transforms\preDex\release\31.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\dubro\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\2a8cf35c76c097c08f70e4cd3afb1154\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="15"
+        optimize="true"
+        revision="26.0.2"
+        sha1="40392f30a601db5675cdf18192aab013d6fee6ec">
+        <dex dex="C:\Users\dubro\WebMobile-2020Summer\Mobile_ICP4\AndroidHardware\app\build\intermediates\transforms\preDex\release\59.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\dubro\.gradle\caches\transforms-1\files-1.1\play-services-drive-11.0.4.aar\8d7e6ce968e9cfbbc1fc5d262e5370cf\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="15"
+        optimize="true"
+        revision="26.0.2"
+        sha1="02b91f8efa91dcdf5c555ee24b7f006f02cd0f8b">
+        <dex dex="C:\Users\dubro\WebMobile-2020Summer\Mobile_ICP4\AndroidHardware\app\build\intermediates\transforms\preDex\release\24.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\dubro\.gradle\caches\transforms-1\files-1.1\firebase-crash-11.0.4.aar\c6d7bcd1761a2c5dd4425cd9e3bc4ee6\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="15"
+        optimize="true"
+        revision="26.0.2"
+        sha1="fc3036436defd3070337b7191c50a136ebca7f8f">
+        <dex dex="C:\Users\dubro\WebMobile-2020Summer\Mobile_ICP4\AndroidHardware\app\build\intermediates\transforms\preDex\release\42.jar" />
+    </item>
+
+</items>

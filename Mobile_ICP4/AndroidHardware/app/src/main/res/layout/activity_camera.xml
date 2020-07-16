@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.vijaya.androidhardware.CameraActivity"
+    android:orientation="vertical" android:background="@drawable/background3">
+
+    <ImageView
+        android:id="@+id/view_photo"
+        android:layout_width="260dp"
+        android:layout_height="374dp"
+        android:layout_alignEnd="@+id/btn_photo_home"
+        android:layout_alignParentStart="true"
+        android:layout_above="@+id/btn_take_photo"
+        android:layout_alignRight="@+id/btn_photo_home"
+        android:layout_alignParentLeft="true" />
+
+    <Button
+        android:id="@+id/btn_take_photo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:background="#00BCD4"
+        android:onClick="callCamera"
+        android:text="Take photo" />
+
+    <Button
+        android:id="@+id/btn_photo_home"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="69dp"
+        android:background="#00BCD4"
+        android:onClick="redirectToHome"
+        android:text="Home" />
+
+</RelativeLayout>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.vijaya.androidhardware.StorageActivity"
+    android:orientation="vertical" android:background="@drawable/background3">
+
+    <EditText
+        android:id="@+id/id_txt_mycontent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:ems="10"
+        android:gravity="start"
+        android:hint="enter text here..."
+        android:inputType="textMultiLine"
+        android:textAlignment="viewStart"
+        android:textColor="#F6F5F5"
+        android:textSize="24sp"
+        android:textColorHint="@color/wallet_secondary_text_holo_dark"/>
+
+    <Button
+        android:id="@+id/id_btn_save"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/id_txt_mycontent"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="38dp"
+        android:background="#00BCD4"
+        android:onClick="saveTofile"
+        android:text="save" />
+
+    <Button
+        android:id="@+id/id_btn_display"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/id_btn_save"
+        android:layout_alignStart="@+id/id_btn_save"
+        android:layout_alignLeft="@+id/id_btn_save"
+        android:layout_marginTop="80dp"
+        android:background="#00BCD4"
+        android:onClick="retrieveFromFile"
+        android:text="open" />
+
+    <EditText
+        android:id="@+id/id_txt_display"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/id_btn_display"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="65dp"
+        android:ems="10"
+        android:inputType="textMultiLine"
+        android:visibility="invisible"
+        android:textColorHint="@color/wallet_secondary_text_holo_dark"/>
+</RelativeLayout>
