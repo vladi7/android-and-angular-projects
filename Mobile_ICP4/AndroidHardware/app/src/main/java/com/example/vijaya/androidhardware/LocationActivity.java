@@ -64,9 +64,7 @@ public class LocationActivity extends AppCompatActivity implements OnMapReadyCal
 
     }
 
-    @Override
-    public void onPointerCaptureChanged(boolean hasCapture) {
-    }
+
     //getting permission to access the location
     private void getLocationPermission() {
 

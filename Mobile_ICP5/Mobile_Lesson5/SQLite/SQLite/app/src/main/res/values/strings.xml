@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">SQLite</string>
+    <string name="company_name">Company Name</string>
+    <string name="description">Description</string>
+    <string name="founded_date_e_g_23_04_2016">Founded Date (e.g 23/04/2016)</string>
+    <string name="save">Save</string>
+    <string name="search">Search</string>
+    <string name="employee_first_name">Employee First Name</string>
+    <string name="employee_last_name">Employee Last Name</string>
+    <string name="date_of_birth_e_g_23_04_2016">Date of Birth (e.g 23/04/2016)</string>
+    <string name="job_description">Job Description</string>
+    <string name="employed_date_e_g_23_04_2016">Employed Date (e.g 23/04/2016)</string>
+    <string name="employer_name">Employer Name</string>
+</resources>

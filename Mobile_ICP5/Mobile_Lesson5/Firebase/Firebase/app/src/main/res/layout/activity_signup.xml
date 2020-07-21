@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+
+    tools:context="com.vijaya.firebase.SignUpActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:orientation="vertical">
+
+        <GridLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="10dp">
+
+            <LinearLayout
+                android:layout_width="190dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingRight="5dp">
+
+                <EditText
+                    android:id="@+id/etFirstName"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:background="@drawable/edittext_top_bg"
+                    android:drawableRight="@drawable/user"
+                    android:hint="  First Name"
+                    android:textColorHint="#bbbbbb" />
+
+                <EditText
+                    android:id="@+id/etLastName"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="30dp"
+                    android:background="@drawable/edittext_top_bg"
+                    android:drawableRight="@drawable/user"
+                    android:hint="  Last Name"
+                    android:textColorHint="#bbbbbb" />
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/ivUserImage"
+                android:layout_width="150dp"
+                android:layout_height="133dp"
+                android:onClick="onClickOfPhotoButton"
+                android:src="@drawable/takepictureicon" />
+        </GridLayout>
+
+        <EditText
+            android:id="@+id/etEmail"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/edittext_top_bg"
+            android:drawableRight="@drawable/email"
+            android:hint="Email"
+            android:padding="10dp"
+            android:textColorHint="#bbbbbb" />
+
+        <EditText
+            android:id="@+id/etPass"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="-2dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/edittext_bottom_bg"
+            android:drawableRight="@drawable/password"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:padding="10dp"
+            android:textColorHint="#bbbbbb" />
+
+        <Button
+            android:id="@+id/btnSingIn"
+            style="@style/DefaultButtonText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:background="@drawable/button_default_bg"
+            android:onClick="onSignUp"
+            android:padding="10dp"
+            android:text="Create Account" />
+    </LinearLayout>
+</RelativeLayout>
