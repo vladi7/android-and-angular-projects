@@ -1,5 +1,3 @@
-# WebMobile-2020Summer
+# Android and Angular Projects
 
-This repository is about my work for Web and Mobile development class at UMKC.
-Please find all the ICPs above. 
-So far, I have used Bootstrap, jQuery, Angular, and Firebase in this class.
+In this repository, you can find projects using Bootstrap, jQuery, Angular, Firebase, and Java(Android).
